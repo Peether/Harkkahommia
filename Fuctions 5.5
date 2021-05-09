@@ -1,0 +1,16 @@
+from math import pi
+
+def calculate_circle(radius):
+  length =  2* int(pi) * radius
+  print("Ympyran pituus : ", int(length))
+
+def calculate_circle_area(radius):
+  area = int(pi) * (radius * radius)
+  print("ympyrn pinta-ala on: ", int(area))  
+
+def print_results(value):
+  return value
+
+num = print_results(float(input("value:")))
+calculate_circle(float(num))
+calculate_circle_area(float(num))
