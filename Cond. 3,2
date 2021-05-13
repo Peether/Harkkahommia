@@ -1,0 +1,15 @@
+counter = 1
+numbers = 100
+while counter <= numbers :
+    if counter % 15 == 0:
+        print(str(counter) + "Hiiri")
+    
+    elif counter % 3 == 0:
+      print(str(counter) + "koira" )
+
+    elif counter % 5 == 0:
+      print(str(counter) + "kissa" )
+ 
+    else:
+      print(counter)
+    counter += 1
